@@ -37,3 +37,16 @@ I remember, it is already install with the 3.1 frmawork.
 
 0751-EST
 Created database context class named MvcSpoonContext.cs and modified the class and method.
+
+Updated Startup.ConfigureServices and added database a connection string to the appsettings.json file.
+
+0832-EST
+I understand I made mistake that I made Spoons Controller by myself but it will generate automatically when we will do the Scaffolding.
+I deleted the Spoons Controller and Scaffold.
+
+Scaffolding done.
+
+For Initial migration- I Used following command lile
+		Add-Migration InitialCreate -Context MvcSpoonContext
+		Update-Database -Context MvcSpoonContext
+the EF Core Migrations feature to created and updated the database.
