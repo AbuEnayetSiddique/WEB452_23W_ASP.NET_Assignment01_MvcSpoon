@@ -5,6 +5,9 @@ Program name : MvcSpoon
 Program purpose : Create an MVC ASP.NET application using .NET core 3.1 
 Date created : 2023-02-16 1246EST
 
+# My product is Spoon
+Company Name: The Silver Spoon
+
 # Created the project
 Cheked the project and it worked perfectly. 
 Created new Github Repository and push the project.
@@ -58,3 +61,7 @@ Checked the Database-localDB: Id is the primary key and there is no Data.
 
 Created SeedData class and populated with 10 fields.
 Checked the application and data was correctly added.
+
+1253-EST
+Added some css style
+Added some comment

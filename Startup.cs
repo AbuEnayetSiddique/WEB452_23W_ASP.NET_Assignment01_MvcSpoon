@@ -34,6 +34,7 @@ namespace MvcSpoon
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            //Added DBContext for MvcSpoon
             services.AddDbContext<MvcSpoonContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }

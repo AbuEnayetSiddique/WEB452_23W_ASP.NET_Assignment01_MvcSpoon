@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Inside Spoon class defined the properties and data type
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace MvcSpoon.Models

@@ -1,3 +1,4 @@
+//Updated this file with all these new code after Creating SeedData Class
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
