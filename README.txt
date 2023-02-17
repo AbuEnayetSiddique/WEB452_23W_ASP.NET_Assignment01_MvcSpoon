@@ -50,3 +50,11 @@ For Initial migration- I Used following command lile
 		Add-Migration InitialCreate -Context MvcSpoonContext
 		Update-Database -Context MvcSpoonContext
 the EF Core Migrations feature to created and updated the database.
+
+
+2023-02-17
+0859-EST
+Checked the Database-localDB: Id is the primary key and there is no Data.
+
+Created SeedData class and populated with 10 fields.
+Checked the application and data was correctly added.
