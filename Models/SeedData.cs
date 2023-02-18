@@ -30,7 +30,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.25M,
                         Color = "Silver",
                         Weight = 0.01M,
-                        Price = 1.49M
+                        Price = 1.49M,
+                        Rating = 4.5M
                     },
 
                     new Spoon
@@ -40,7 +41,8 @@ namespace MvcSpoon.Models
                         Measurement = 1 ,
                         Color = "White-Golden",
                         Weight = 0.05M,
-                        Price = 11.99M
+                        Price = 11.99M,
+                        Rating = 5M
                     },
 
                     new Spoon
@@ -50,7 +52,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.50M,
                         Color = "Brown",
                         Weight = 0.01M,
-                        Price = 2.99M
+                        Price = 2.99M,
+                        Rating = 4.5M
                     },
 
                     new Spoon
@@ -60,7 +63,8 @@ namespace MvcSpoon.Models
                         Measurement = 1.50M,
                         Color = "White",
                         Weight = 0.06M,
-                        Price = 10.49M
+                        Price = 10.49M,
+                        Rating = 5M
                     },
 
                     new Spoon
@@ -70,7 +74,8 @@ namespace MvcSpoon.Models
                         Measurement = 1,
                         Color = "Silver",
                         Weight = 0.02M,
-                        Price = 2.49M
+                        Price = 2.49M,
+                        Rating = 4M
                     },
 
                     new Spoon
@@ -80,7 +85,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.50M,
                         Color = "Brown",
                         Weight = 0.01M,
-                        Price = 2.99M
+                        Price = 2.99M,
+                        Rating = 4.5M
                     },
 
                     new Spoon
@@ -90,7 +96,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.50M,
                         Color = "White",
                         Weight = 0.01M,
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Rating = 5M
                     },
 
                     new Spoon
@@ -100,7 +107,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.25M,
                         Color = "Golden",
                         Weight = 0.03M,
-                        Price = 10.49M
+                        Price = 10.49M,
+                        Rating = 5M
                     },
 
                     new Spoon
@@ -110,7 +118,8 @@ namespace MvcSpoon.Models
                         Measurement = 0.50M,
                         Color = "Rose Gold",
                         Weight = 0.06M,
-                        Price = 19.99M
+                        Price = 19.99M,
+                        Rating = 4.5M
                     },
 
                     new Spoon
@@ -120,7 +129,8 @@ namespace MvcSpoon.Models
                         Measurement = 1.50M,
                         Color = "Silver",
                         Weight = 0.03M,
-                        Price = 5.99M
+                        Price = 5.99M,
+                        Rating = 3.5M
                     }
                 );
                 context.SaveChanges();

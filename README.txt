@@ -7,6 +7,7 @@ Date created : 2023-02-16 1246EST
 
 # My product is Spoon
 Company Name: The Silver Spoon
+For DOCUMENTATION I used Estern Time.
 
 # Created the project
 Cheked the project and it worked perfectly. 
@@ -65,3 +66,14 @@ Checked the application and data was correctly added.
 1253-EST
 Added some css style
 Added some comment
+Added Image
+
+
+
+0335-EST
+Tried to Add a new field- Rating
+The application run after addind Rating field but the Rating for all data is 0.00.
+
+0625-EST
+Deleted all the data from the browser and Build the project.
+The Rating field is now has the data.

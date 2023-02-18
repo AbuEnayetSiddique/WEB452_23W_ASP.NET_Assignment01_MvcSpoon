@@ -54,7 +54,7 @@ namespace MvcSpoon.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TypeOfSpoon,Material,Measurement,Color,Weight,Price")] Spoon spoon)
+        public async Task<IActionResult> Create([Bind("Id,TypeOfSpoon,Material,Measurement,Color,Weight,Price,Rating")] Spoon spoon)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace MvcSpoon.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TypeOfSpoon,Material,Measurement,Color,Weight,Price")] Spoon spoon)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,TypeOfSpoon,Material,Measurement,Color,Weight,Price,Rating")] Spoon spoon)
         {
             if (id != spoon.Id)
             {
