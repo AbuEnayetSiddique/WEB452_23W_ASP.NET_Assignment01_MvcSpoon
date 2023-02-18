@@ -7,7 +7,7 @@ Date created : 2023-02-16 1246EST
 
 # My product is Spoon
 Company Name: The Silver Spoon
-For DOCUMENTATION I used Estern Time.
+For DOCUMENTATION I used Estern Time (EST).
 
 # Created the project
 Cheked the project and it worked perfectly. 
@@ -15,17 +15,17 @@ Created new Github Repository and push the project.
 Added a README file in the Github with bacis informations of the project.
 Added another README file in the project to document all the steps and actions taken to complete the project.
 
-0137EST
+0137-EST
 Tried to commit the README file to github but got issue.
 It was asking to Pull and then Push but did not working.
 Tried to find solution on Google. Got some in Stackoverflow.
 Merges local and Master branch together. 
 
-0330EST
+0330-EST
 Added Spoones Controller.
 Updated the footer with the dinamic Date-Time.
 
-0415EST
+0415-EST
 Created HelloWorld folder and inside that added Index.cshtml
 
 0424-EST
@@ -77,3 +77,6 @@ The application run after addind Rating field but the Rating for all data is 0.0
 0625-EST
 Deleted all the data from the browser and Build the project.
 The Rating field is now has the data.
+
+0828-EST
+Tried to creat Azure Account but can not do it.
